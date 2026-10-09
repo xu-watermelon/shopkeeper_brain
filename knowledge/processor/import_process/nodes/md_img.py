@@ -19,9 +19,9 @@ from openai import OpenAI
 
 from knowledge.utils.client.storage_clients import StorageClients
 from knowledge.utils.client.ai_clients import AIClients
-from knowledge.processor.import_processor.base import BaseNode, setup_logging
-from knowledge.processor.import_processor.state import ImportGraphState
-from knowledge.processor.import_processor.exceptions import (
+from knowledge.processor.import_process.base import BaseNode, setup_logging
+from knowledge.processor.import_process.state import ImportGraphState
+from knowledge.processor.import_process.exceptions import (
     StateFieldError, FileProcessingError, ImageProcessingError,
 )
 from knowledge.processor.import_processor.config import get_config

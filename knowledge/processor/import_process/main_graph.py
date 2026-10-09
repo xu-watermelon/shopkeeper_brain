@@ -10,7 +10,7 @@ from langgraph.graph.state import CompiledStateGraph, StateGraph
 
 from knowledge.processor.import_process.base import setup_logging
 from knowledge.processor.import_process.nodes.bge_embedding import BgeEmbeddingChunksNode
-from knowledge.processor.import_process.nodes.ducment_split import DocumentSplitNode
+from knowledge.processor.import_process.nodes.document_split import DocumentSplitNode
 from knowledge.processor.import_process.nodes.entry import EntryNode
 from knowledge.processor.import_process.nodes.import_milvus import ImportMilvusNode
 from knowledge.processor.import_process.nodes.item_name_recognition import ItemNameRecognitionNode
