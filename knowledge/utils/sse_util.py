@@ -5,6 +5,7 @@ import queue
 from typing import Dict, Any, Optional, AsyncGenerator
 from fastapi import Request
 
+# Todo:学习sse协议
 
 class SSEEvent:
     PROGRESS = "progress"  # 任务节点进度
